@@ -29337,62 +29337,10 @@ try {
                         Object.defineProperty(screen, "availLeft", { value: 0 });
                     } catch (e) {}
                     try {
-                        Object.defineProperty(screen, "availWidth", { value: 1280 });
+                        Object.defineProperty(screen, "availWidth", { value: 1600 });
                     } catch (e) {}
                     try {
-                        Object.defineProperty(screen, "availHeight", { value: 720 });
-                    } catch (e) {}
-                    try {
-                        Object.defineProperty(screen, "colorDepth", { value: 24 });
-                    } catch (e) {}
-                    try {
-                        Object.defineProperty(screen, "pixelDepth", { value: 24 });
-                    } catch (e) {}
-                    try {
-                        Object.defineProperty(navigator, "hardwareConcurrency", { value: 8 });
-                    } catch (e) {}
-                    try {
-                        Object.defineProperty(navigator, "appVersion", { value: "5.0 (Windows)" });
-                    } catch (e) {}
-                    try {
-                        Object.defineProperty(navigator, "doNotTrack", { value: "unspecified" });
-                    } catch (e) {}
-                    
-            try {
-                window.screenY = 713
-            } catch (e) { }
-        
-            try {
-                window.screenTop = 713
-            } catch (e) { }
-        
-            try {
-                window.top.window.outerHeight = window.screen.height
-            } catch (e) { }
-        
-            try {
-                window.screenX = 1273
-            } catch (e) { }
-        
-            try {
-                window.screenLeft = 1273
-            } catch (e) { }
-        
-            try {
-                window.top.window.outerWidth = window.screen.width
-            } catch (e) { }
-        
-try {
-                        Object.defineProperty(screen, "availTop", { value: 0 });
-                    } catch (e) {}
-                    try {
-                        Object.defineProperty(screen, "availLeft", { value: 0 });
-                    } catch (e) {}
-                    try {
-                        Object.defineProperty(screen, "availWidth", { value: 1280 });
-                    } catch (e) {}
-                    try {
-                        Object.defineProperty(screen, "availHeight", { value: 720 });
+                        Object.defineProperty(screen, "availHeight", { value: 900 });
                     } catch (e) {}
                     try {
                         Object.defineProperty(screen, "colorDepth", { value: 24 });
@@ -29411,11 +29359,11 @@ try {
                     } catch (e) {}
                     
             try {
-                window.screenY = 713
+                window.screenY = 891
             } catch (e) { }
         
             try {
-                window.screenTop = 713
+                window.screenTop = 891
             } catch (e) { }
         
             try {
@@ -29423,11 +29371,11 @@ try {
             } catch (e) { }
         
             try {
-                window.screenX = 1273
+                window.screenX = 1591
             } catch (e) { }
         
             try {
-                window.screenLeft = 1273
+                window.screenLeft = 1591
             } catch (e) { }
         
             try {
