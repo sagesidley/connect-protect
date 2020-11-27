@@ -50,12 +50,12 @@
 
 
 
-<div data-silex-type="container-element" class="editable-style section-element silex-id-1606411578075-18" style=""><div data-silex-type="container-element" class="editable-style container-element silex-id-1606411578076-19 silex-element-content website-width prevent-draggable" style=""><div data-silex-type="text-element" class="editable-style text-element silex-id-1606408549860-13 silex-component-hamburger prevent-resizable prevent-auto-z-index" style=""><div class="silex-element-content normal"><style>.hamburger-menu_1606432047465_617 {position: absolute; z-index: 20;}.silex-editor .hamburger-menu_1606432047465_617 nav {left: -9999px;}.hamburger-menu_1606432047465_617 nav ul {margin-top: 80px;}.hamburger-menu_1606432047465_617 nav {opacity: 0; position: absolute; background-color: #ffffff; transition: left 1s ease, height 0s ease 1s; left: -300px; width: 300px; height: 20px;}.hamburger-menu_1606432047465_617.open nav {opacity: 1; height: 100vh; left: 0; transition: left 1s ease, height 0s ease 0s;}.hamburger-menu_1606432047465_617 .nav-container {z-index: 10; position: absolute;}.hamburger-menu_1606432047465_617.open .nav-container {}.hamburger-menu_1606432047465_617 .hamburger-btn {z-index: 20; cursor: pointer; position: absolute;}.hamburger-menu_1606432047465_617 .hamburger-btn span {display: block; width: 30px; height: 5px; margin-bottom: 3px; position: relative; background-color: #000000; border: 1px solid #ffffff; border-radius: 3px; transition: border-color 0.1s ease-in,
+<div data-silex-type="container-element" class="editable-style section-element silex-id-1606411578075-18" style=""><div data-silex-type="container-element" class="editable-style container-element silex-id-1606411578076-19 silex-element-content website-width prevent-draggable" style=""><div data-silex-type="text-element" class="editable-style text-element silex-id-1606408549860-13 silex-component-hamburger prevent-resizable prevent-auto-z-index" style=""><div class="silex-element-content normal"><style>.hamburger-menu_1606442283772_29 {position: absolute; z-index: 20;}.silex-editor .hamburger-menu_1606442283772_29 nav {left: -9999px;}.hamburger-menu_1606442283772_29 nav ul {margin-top: 80px;}.hamburger-menu_1606442283772_29 nav {opacity: 0; position: absolute; background-color: #ffffff; transition: left 1s ease, height 0s ease 1s; left: -300px; width: 300px; height: 20px;}.hamburger-menu_1606442283772_29.open nav {opacity: 1; height: 100vh; left: 0; transition: left 1s ease, height 0s ease 0s;}.hamburger-menu_1606442283772_29 .nav-container {z-index: 10; position: absolute;}.hamburger-menu_1606442283772_29.open .nav-container {}.hamburger-menu_1606442283772_29 .hamburger-btn {z-index: 20; cursor: pointer; position: absolute;}.hamburger-menu_1606442283772_29 .hamburger-btn span {display: block; width: 30px; height: 5px; margin-bottom: 3px; position: relative; background-color: #ff80d6; border: 1px solid #ffffff; border-radius: 3px; transition: border-color 0.1s ease-in,
       opacity 0.1s ease-in,
       transform 0.1s ease-in,
-      background 0.1s ease-in;}.hamburger-menu_1606432047465_617.open .hamburger-btn span {border-color: rgba(255, 255, 255, 0);}.hamburger-menu_1606432047465_617 .hamburger-btn span:first-child {transform-origin: 4px -2px;}.hamburger-menu_1606432047465_617.open .hamburger-btn span:first-child {transform: rotate(45deg) translate(7px, -4px);}.hamburger-menu_1606432047465_617.open .hamburger-btn span:nth-last-child(2) {opacity: 0;}.hamburger-menu_1606432047465_617 .hamburger-btn span:nth-child(3) {transform-origin: -11px 4px;}.hamburger-menu_1606432047465_617.open .hamburger-btn span:nth-child(3) {transform: rotate(-45deg) translate(0, 12px);}</style>
+      background 0.1s ease-in;}.hamburger-menu_1606442283772_29.open .hamburger-btn span {border-color: rgba(255, 255, 255, 0);}.hamburger-menu_1606442283772_29 .hamburger-btn span:first-child {transform-origin: 4px -2px;}.hamburger-menu_1606442283772_29.open .hamburger-btn span:first-child {transform: rotate(45deg) translate(7px, -4px);}.hamburger-menu_1606442283772_29.open .hamburger-btn span:nth-last-child(2) {opacity: 0;}.hamburger-menu_1606442283772_29 .hamburger-btn span:nth-child(3) {transform-origin: -11px 4px;}.hamburger-menu_1606442283772_29.open .hamburger-btn span:nth-child(3) {transform: rotate(-45deg) translate(0, 12px);}</style>
 <!-- inspired by https://codepen.io/erikterwan/pen/EVzeRP -->
-<div class="hamburger-menu_1606432047465_617 closed">
+<div class="hamburger-menu_1606442283772_29 closed">
     <div class="hamburger-btn fixed">
       <span></span>
       <span></span>
@@ -82,26 +82,26 @@
   var isOpen = false;
   function close() {
     isOpen = false;
-    $('.hamburger-menu_1606432047465_617').removeClass('open');
-    $('.hamburger-menu_1606432047465_617').addClass('closed');
+    $('.hamburger-menu_1606442283772_29').removeClass('open');
+    $('.hamburger-menu_1606442283772_29').addClass('closed');
   }
   function open() {
     isOpen = true;
-    $('.hamburger-menu_1606432047465_617').addClass('open');
-    $('.hamburger-menu_1606432047465_617').removeClass('closed');
+    $('.hamburger-menu_1606442283772_29').addClass('open');
+    $('.hamburger-menu_1606442283772_29').removeClass('closed');
   }
   function toggle() {
     if(isOpen) close();
     else open();
   }
-  var silexElement = $('.hamburger-menu_1606432047465_617').closest('.editable-style');
+  var silexElement = $('.hamburger-menu_1606442283772_29').closest('.editable-style');
   function move(data) {
     var offset = silexElement.offset();
-    $('.hamburger-menu_1606432047465_617 .nav-container').css({
+    $('.hamburger-menu_1606442283772_29 .nav-container').css({
       'transform': 'translate(' + (data.scrollLeft - (offset.left/data.scale)) + 'px, ' + (data.scrollTop - (offset.top/data.scale)) + 'px)'
     });
   }
-  $('.hamburger-menu_1606432047465_617 .hamburger-btn').click(function() { toggle(); });
+  $('.hamburger-menu_1606442283772_29 .hamburger-btn').click(function() { toggle(); });
   $(document).on('silex.scroll silex.resize', function(e) {
     close();
     move(window.silex);
@@ -111,94 +111,4 @@
 </script>
 </div></div></div></div><div data-silex-type="container-element" class="container-element editable-style silex-id-1478366444112-1 section-element prevent-resizable page-about paged-element paged-element-visible" style="">
         
-    <div data-silex-type="container-element" class="editable-style silex-element-content silex-id-1478366444112-0 container-element website-width" style=""><div data-silex-type="container-element" class="editable-style container-element silex-id-1606405117556-2 page-about paged-element paged-element-visible" style=""></div><div data-silex-type="container-element" class="editable-style container-element silex-id-1606405022052-1 page-about paged-element paged-element-visible" style=""><div data-silex-type="text-element" class="editable-style text-element silex-id-1606403603023-0 page-about paged-element paged-element-visible" style=""><div class="silex-element-content normal"><h1>Connect 2 Protect<br></h1></div></div></div><div data-silex-type="container-element" class="editable-style container-element silex-id-1606412474069-26 page-about paged-element paged-element-visible" style=""><div data-silex-type="container-element" class="editable-style container-element silex-id-1606412079737-22 page-about paged-element paged-element-visible" style=""><div data-silex-type="text-element" class="editable-style text-element silex-id-1606406989090-6" style=""><div class="silex-element-content normal"> <h2>Saturday, December 5th 2:00-4:30pm AST</h2></div></div></div></div></div></div><div data-silex-type="container-element" class="container-element editable-style silex-id-1474394621033-3 section-element prevent-resizable" style="">
-        
-    <div data-silex-type="container-element" class="editable-style silex-element-content silex-id-1474394621032-2 container-element website-width selected" style=""><div data-silex-type="container-element" class="editable-style container-element silex-id-1606406535784-4 page-about paged-element paged-element-visible" style=""><div data-silex-type="text-element" class="editable-style text-element silex-id-1606406029815-3 page-about paged-element paged-element-visible" style=""><div class="silex-element-content normal"><p>
-The task of protecting oneself online can be daunting and 
-time-consuming. <br></p><p>
-</p><p>In the live session workshop 
-participants will learn to perform their own data detoxes. Riffing off 
-of the buzzy language of online DIY self-care, the light-hearted 
-workshop will provide participants with tools to protect
-their data tracked by social 
-media giants via their digital devices. <br></p><p>Users can access the information
- discussed in the workshop and collaborative research resources here. <br>
-
-<br>
-
-</p>
-
-
-</div></div></div><div data-silex-type="container-element" class="editable-style container-element silex-id-1606412918725-28 page-about paged-element paged-element-visible" style=""><div data-silex-type="text-element" class="editable-style text-element silex-id-1606412918725-29 page-about paged-element paged-element-visible" style=""><div class="silex-element-content normal"><p>
-
-</p>
- <p><b>How to participate:</b></p><p>
-
-This online workshop is <u>free</u> but advance registration is required as 
-space is limited. <br>If you are interested in participating by
-<b>December 1st</b> 
-
-please email <a href="mailto:liuba.gonzalezdearmas@msvu.ca" target="_blank"><u>liuba.gonzalezdearmas@msvu.ca</u></a> with the following info: <br></p><p>    Name</p><p>    Phone number</p><p>    Email Address</p><p>    Indicate if you have any access needs or concerns <br>    (e.g. require ASL interpretation, technology support, etc)</p><p>
-
-More information, including Zoom links and accessibility features, will 
-be shared with registered participants via email in advance of the 
-workshop.&nbsp;</p><p><b><br>       A recording of the workshop will be published here:</b><br>
-
-</p></div></div><div data-silex-type="container-element" class="editable-style container-element silex-id-1606429149632-59 page-about paged-element paged-element-visible" style=""><div data-silex-type="text-element" class="editable-style text-element silex-id-1606429149633-60 page-about paged-element paged-element-visible" style=""><div class="silex-element-content normal"><p>Watch&nbsp; <br></p></div></div></div></div><div data-silex-type="container-element" class="editable-style container-element silex-id-1606419242652-51 page-about paged-element paged-element-visible" style=""><div data-silex-type="text-element" class="editable-style text-element silex-id-1606420744078-52" style=""><div class="silex-element-content normal"><h3>Inhale</h3><h3>Connect<br></h3><h3>
-</h3><h3>...<br></h3><h3>Exhale&nbsp;<br></h3><h3>Protect <br></h3><h3><br></h3><h3> </h3></div></div></div><div data-silex-type="container-element" class="editable-style container-element silex-id-1606417762750-44 page-about paged-element paged-element-visible" style=""><a href="protect.html" data-silex-type="container-element" class="editable-style container-element silex-id-1606428901302-57 page-about paged-element paged-element-visible" style=""><div data-silex-type="text-element" class="editable-style text-element silex-id-1606429013280-58" style=""><div class="silex-element-content normal"><p><a href="protect.html" linktype="LinkTypePage" title="Resources" class="">Resources</a> <br></p></div></div></a><div data-silex-type="text-element" class="editable-style text-element silex-id-1606417762750-45 page-about paged-element paged-element-visible" style=""><div class="silex-element-content normal"><p>
-</p>
-<p>This workshop hosted by intermedia artist Sage Sidley&nbsp; and MSVU Art Gallery,
-strives to give participants the confidence and time to take small steps
- towards protecting their data online. Participants will be calmly led through 
-step-by-step procedures on their devices to detox their collected 
-location-based data and prevent further personal data from being 
-collected. <br></p><p>In addition to the workshop, participants are invited
-to consult, revisit, and share a dedicated open-source website designed 
-by Sidley to connect the content of the live session and additional user-based research regarding location-based data 
-collection protection.<br>
-
-</p>
-
-
-
-
-
-
-</div></div></div></div></div><div data-silex-type="container-element" class="container-element editable-style silex-id-1478366450713-3 section-element prevent-resizable" style="">
-        <div data-silex-type="container-element" class="editable-style silex-element-content silex-id-1478366450713-2 container-element website-width" style="">
-
-            
-        </div>
-    </div><div data-silex-type="container-element" class="editable-style section-element silex-id-1606427280283-54"><div data-silex-type="container-element" class="editable-style container-element silex-id-1606427280283-55 silex-element-content website-width prevent-draggable" style=""><div class="editable-style silex-id-1442914737143-3 text-element" data-silex-type="text-element" style="">
-                <div class="silex-element-content normal"><p>Powered by <a href="https://www.silex.me/" target="_blank" title="Silex website builder,  free and open source" linktype="LinkTypeExternal">Silex website builder</a></p></div>
-            </div><a href="https://www.msvuart.ca/about/news/" data-silex-type="image-element" class="editable-style image-element silex-id-1606427255987-53" style=""><img src="assets/Capture.PNG"></a><div data-silex-type="html-element" class="editable-style html-element silex-id-1606428501680-56 silex-component-share" style=""><div class="silex-element-content">
-<ul class="share-buttons" id="id_1606431981874_372">
-  
-  <li><a href="https://www.facebook.com/sharer/sharer.php?u=http://www.connect-protect.com&amp;t=Connect to Protect " title="Share on Facebook" target="_blank"><img alt="Share on Facebook" src="assets/Facebook.png"></a></li>
-  
-  
-  
-  <li><a href="https://plus.google.com/share?url=http://www.connect-protect.com" target="_blank" title="Share on Google+"><img alt="Share on Google+" src="assets/Google%2B.png"></a></li>
-  
-  
-  
-  
-  
-  
-  
-  
-  <li><a href="https://pinboard.in/popup_login/?url=http://www.connect-protect.com&amp;title=Connect to Protect &amp;description=Connect to Protect is a workshop and hosted by intermedia artist Sage Sidley and MSVU Art Gallery. Participants will be guided through small steps
- towards protecting their data online in an accessible and
-light-hearted manner. Users can access the information
- discussed in the workshop and collaborative research resources on the website. " target="_blank" title="Save to Pinboard"><img alt="Save to Pinboard" src="assets/Pinboard.png"></a></li>
-  
-  
-  <li><a href="mailto:?subject=Connect to Protect &amp;body=Connect to Protect is a workshop and hosted by intermedia artist Sage Sidley and MSVU Art Gallery. Participants will be guided through small steps
- towards protecting their data online in an accessible and
-light-hearted manner. Users can access the information
- discussed in the workshop and collaborative research resources on the website. :%20http://www.connect-protect.com" target="_blank" title="Send email"><img alt="Send by email" src="assets/Email.png"></a></li>
-  
-</ul>
-
-<style type="text/css">#id_1606431981874_372.share-buttons {list-style: none; padding: 0;}#id_1606431981874_372.share-buttons li {display: inline;}#id_1606431981874_372.share-buttons .sr-only {position: absolute; clip: rect(1px, 1px, 1px, 1px); padding: 0; border: 0; height: 1px; width: 1px; overflow: hidden;}</style>
-</div></div></div></div></body></html>
+    <div data-silex-type="container-element" class="editable-style silex-element-content silex-id-1478366444112-0 container-element website-width" style=""><div data-silex-type="container-element" class="editable-style container-element silex-id-1606405117556-2 page-about paged-element paged-element-visible" style=""></div><div data-silex-type="container-element" class="editable-style container-element silex-id-1606405022052-1 page-about paged-element paged-element-visible" style=""><div data-silex-type="text-element" class="editable-style text-element silex-id-1606403603023-0 page-about paged-element paged-element-visible" style=""><div class="silex-element-content normal"><h1>Connect 2 Protect<br></h1></div></div></div><div data-silex-type="container-element" class="editable-style container-element silex-id-1606412474069-26 page-about paged-element paged-element-visible" style=""><div data-silex-type="container-element" class="editable-style container-element silex-id-1606412079737-22 page-about paged-element paged-element-visible" style=""><div data-silex-type="text-element" class="editable-style text-element silex-id-1606406989090-6" style=""><div class="silex-element-content normal"> <h2>Saturday, December 5th 2:00-4:30pm AST</h2></div></div></div></div></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1606442331953-0" style=""><div class="silex-element-content normal"><p>Powered by <a href="https://www.silex.me/" title="Silex">Silex</a> website builder<br></p></div></div></body></html>
